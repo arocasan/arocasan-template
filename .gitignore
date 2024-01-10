@@ -394,5 +394,21 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.lock.hcl
+
+
 # JetBrains Rider
 *.sln.iml
